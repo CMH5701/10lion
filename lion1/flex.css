@@ -1,0 +1,17 @@
+.flex-container{ /*한줄로 출력해줌*/
+    display: flex; /*한줄로 출력해줌*/
+    justify-content: center;
+    /*flex-direction: row;세로 정렬*/
+    height: 300px;
+
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.flex-item{
+    align-items: center;
+    justify-content:center;
+    height:100px;
+    width: 100px;
+   }
