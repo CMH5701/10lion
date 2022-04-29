@@ -1,0 +1,64 @@
+table{
+    border-collapse:collapse;
+    text-align: center;
+    table-layout:fixed;
+    font-family : 'GangwonEdu_OTFBoldA';
+}
+.a{/*a는 테이플 왼쪽 td값*/
+    width: 33px;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    font-family : 'GangwonEdu_OTFBoldA';
+}
+td{
+    width: 23px;
+    height: 23px;
+    font-size: 14px;
+    font-family : 'GangwonEdu_OTFBoldA';
+}
+.work{
+    background-color: rgb(37, 223, 161);
+}
+.table1{
+    background:pink;
+}
+.table2{
+    background-color: beige;
+}
+.table3{
+    background-color: rgb(211, 177, 243);
+}
+.table4{
+    background-color: rgba(16, 228, 243, 0.466);
+}
+
+.computer{
+    background-color: orange;
+}
+.group{
+   background-color:rgb(226, 58, 170);
+}
+.web{
+    background-color: rgba(230, 230, 13, 0.384);
+}
+nav{
+    text-align: center;
+    font-family : 'GangwonEdu_OTFBoldA';
+    font-size: 30px;
+    text-decoration:none;
+}
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family : 'GangwonEdu_OTFBoldA';
+}
+a {
+  text-decoration: none;
+}
+
+
