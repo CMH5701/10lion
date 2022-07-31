@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-import djapp.views
+import djapp.views , account.views
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -27,7 +27,10 @@ urlpatterns = [
     path('detail/<str:id>/', djapp.views.detail, name = 'detail'),
     path('edit/<str:id>/', djapp.views.edit, name = 'edit'),
     path('delete/<str:id>/', djapp.views.delete, name = 'delete'),
-    path('hashtag/' , djapp.views.hashtag, name = 'hashtag'),   
+    path('hashtag/' , djapp.views.hashtag, name = 'hashtag'),
+    path('signup/', account.views.signup, name = 'signup'),
+    path('login/', account.views.login, name = 'login'),
+    path('logout/', account.views.logout, name = 'logout'),   
  ] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
   
 
